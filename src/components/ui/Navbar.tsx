@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { AnimatedButton } from "./AnimatedButton";
 import { LanguageSelector } from "./LanguageSelector";
 
@@ -30,7 +30,7 @@ export const Navbar = () => {
   
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Services", path: "#services" },
+    { name: "Services", path: "/services" },
     { name: "Find Hospital", path: "#hospitals" },
     { name: "Contact", path: "#contact" }
   ];
